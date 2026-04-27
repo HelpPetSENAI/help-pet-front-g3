@@ -23,7 +23,7 @@ Bem-vindo(a) a Pull Request deste repositório! Preencha os campos abaixo antes 
 
 Supondo que foi seguido os padrões no readme da organização execute os seguintes passos:
    1. Abra a branch que foram feitas as alterações.
-   2. Utilize no terminal o comando ` npm start `.
+   2. Utilize no terminal o comando ` npm run dev `.
    3. Veja se o está funcionando corretamente.
 
 ---

@@ -120,7 +120,7 @@ nvm use 20
 │   │   │   └── ButtonS.jsx
 │   │   └── Fragment.jsx
 │   ├── pages/
-│   │   ├── CommingSoonPage.jsx
+│   │   ├── ComingSoonPage.jsx
 │   │   ├── NotFoundPage.jsx
 │   │   └── ExamplePage.jsx
 │   ├── styles/
