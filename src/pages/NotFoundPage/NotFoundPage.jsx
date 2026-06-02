@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import Fragment from "../components/Fragment"
-import StyledButton from "../components/Button/Button"
+import Fragment from "../../components/Fragment.js"
+import StyledButton from "../../components/Button/Button.jsx"
 
 export default function NotFoundPage() {
     return (

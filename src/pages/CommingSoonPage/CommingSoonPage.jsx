@@ -1,5 +1,5 @@
-import Fragment from "../components/Fragment"
-import brickWall from "../assets/images/brick-wall.png"
+import Fragment from "../../components/Fragment.js"
+import brickWall from "../../assets/images/brick-wall.png"
 
 export default function ComingSoonPage() {
     return (

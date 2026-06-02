@@ -2,8 +2,8 @@ import * as React from "react"
 const SvgComponent = (props) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width={20}
-        height={16}
+        width={22}
+        height={22}
         fill="none"
         {...props}
     >
@@ -12,7 +12,7 @@ const SvgComponent = (props) => (
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={2}
-            d="M1 4h12m0 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0Zm-6 8h12M7 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+            d="M11 7v8m-4-4h8m6 0c0 5.523-4.477 10-10 10S1 16.523 1 11 5.477 1 11 1s10 4.477 10 10Z"
         />
     </svg>
 )

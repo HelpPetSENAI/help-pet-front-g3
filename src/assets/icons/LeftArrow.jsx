@@ -1,9 +1,9 @@
 import * as React from "react"
-const SvgComponent = (props) => (
+const LeftArrow = (props) => (
     <svg
         xmlns="http://www.w3.org/2000/svg"
-        width={20}
-        height={16}
+        width={19}
+        height={34}
         fill="none"
         {...props}
     >
@@ -11,9 +11,9 @@ const SvgComponent = (props) => (
             stroke="#061407"
             strokeLinecap="round"
             strokeLinejoin="round"
-            strokeWidth={2}
-            d="M1 4h12m0 0a3 3 0 1 0 6 0 3 3 0 0 0-6 0Zm-6 8h12M7 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+            strokeWidth={4}
+            d="M17 2 2 17l15 15"
         />
     </svg>
 )
-export default SvgComponent
+export default LeftArrow

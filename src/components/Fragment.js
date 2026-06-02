@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-const Fragment = styled.body`
+const Fragment = styled.div`
     position: relative;
     width: 100dvw;
     height: 100vh;

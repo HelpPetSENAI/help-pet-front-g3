@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
     :root {
         --logo-font:"Irish Grover", system-ui;
         --main-font:"Archivo", sans-serif;
+        --primary-font: "League Spartan", sans-serif;
 
         --clr-green-50: #EBF9EC;
         --clr-green-100: #C8EFCA;

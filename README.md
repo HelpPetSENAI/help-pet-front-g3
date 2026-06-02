@@ -224,35 +224,22 @@ export const StyledButton = styled.button`
 
 ## Requisitos
 <!-- Preencha os requisitos funcionais e não funcionais apenas do seu grupo -->
-### Funcionais - G1
-
-### Não funcionais -G1
+### Requisitos Funcionais — G8
  
-### Funcionais - G2
+| ID | Requisito |
+|----|-----------|
+| RF01 | O sistema deve possuir um API Gateway capaz de rotear requisições para os microsserviços correspondentes. |
+| RF02 | O Gateway deve validar o token JWT antes de encaminhar requisições para rotas protegidas. |
+| RF03 | O sistema deve gerar e retornar um token JWT válido após autenticação bem-sucedida do usuário. |
+| RF04 | O sistema deve expor um endpoint de Health Check para verificar o status de cada serviço. |
+| RF05 | O sistema deve centralizar os logs de todos os microsserviços em um único ponto de consulta |
 
-### Não funcionais -G2
+### Requisitos Não Funcionais — G8
  
-### Funcionais - G3
-
-### Não funcionais -G3
- 
-### Funcionais - G4
-
-### Não funcionais -G4
- 
-### Funcionais - G5
-
-### Não funcionais -G5
- 
-### Funcionais - G6
-
-### Não funcionais -G6
- 
-### Funcionais - G7
-
-### Não funcionais -G7
- 
-### Funcionais - G8
-
-### Não funcionais -G8
- 
+| ID | Requisito |
+|----|-----------|
+| RNF01 | O API Gateway deve ser implementado com Spring Cloud Gateway. |
+| RNF02 | O token JWT deve ter tempo de expiração configurável via variável de ambiente. |
+| RNF03 | O Health Check deve responder em menos de 500ms. |
+| RNF04 | Os logs centralizados devem registrar no mínimo: timestamp, nível, serviço de origem e mensagem. |
+| RNF05 | O sistema de roteamento deve ser configurável sem necessidade de recompilação de codigo |
