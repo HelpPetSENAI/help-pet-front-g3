@@ -1,5 +1,6 @@
 import {createBrowserRouter, Navigate, RouterProvider} from 'react-router-dom'
 import GlobalStyle from './styles/GlobalStyle.js'
+import SearchPage from "./pages/g3-pages/SearchPage.jsx";
 import ComingSoonPage from './pages/CommingSoonPage/CommingSoonPage.jsx'
 import NotFoundPage from './pages/NotFoundPage/NotFoundPage.jsx'
 import Dashboard from './pages/DashboardPage/DashboardPage.jsx'
