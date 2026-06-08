@@ -40,9 +40,8 @@ export const Main = styled.div`
 
 export const Info = styled.div`
   display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 80%;
+  flex-direction: column;
 
   input::placeholder {
     color: var(--clr-green-1000);
@@ -85,42 +84,4 @@ export const CardWrapper = styled.div`
   align-items: center;
   justify-content: center;
   padding-bottom: 26px;
-`;
-
-export const LoadingDots = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  min-height: 200px;
-
-  span {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--clr-neutral-1000);
-    animation: pulse 1.4s infinite ease-in-out;
-  }
-
-  span:nth-child(1) {
-    animation-delay: 0s;
-  }
-  span:nth-child(2) {
-    animation-delay: 0.2s;
-  }
-  span:nth-child(3) {
-    animation-delay: 0.4s;
-  }
-
-  @keyframes pulse {
-    0%,
-    100% {
-      opacity: 0.2;
-      transform: scale(0.8);
-    }
-    50% {
-      opacity: 1;
-      transform: scale(1.2);
-    }
-  }
 `;

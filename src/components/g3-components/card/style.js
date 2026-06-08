@@ -9,7 +9,6 @@ export const CardContainer = styled.div`
   align-items: flex-end;
   gap: 16px;
   font-family: var(--main-font), sans-serif;
-  cursor: pointer;
 
   border-radius: 20px;
   border: 2px solid var(--crl-red-1000, #160404);
